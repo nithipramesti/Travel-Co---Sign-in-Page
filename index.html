@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in to Travel Co</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="img/Logo.svg" alt="Travel Co Logo" class="logo">
+    </header>
+    <main>
+        <div class="left">
+            <img src="img/ian-macharia-gogGhbvHrYw-unsplash.jpg" alt="" class="image">
+            <h1 class="headline">
+                Discover <br>the good <br>life in Africa
+            </h1>
+        </div>
+        <div class="right">
+            <form>
+                <h2>Sign in</h2>
+                
+                <div class="email">
+                    <label for="form-email">Email</label>
+                    <input type="email" id="form-email" name="email" placeholder="Enter you email" required>
+                </div>
+                <div class="password">
+                    <label for="form-password">Password</label>
+                    <input type="password" id="form-password" name="password" placeholder="Enter your password" required minlength="8">
+                </div>
+                <div class="additional">
+                    <div class="checkbox">
+                        <label class="checkbox--container">
+                            <input type="checkbox" id="form-checkbox" name="keep-sign-in">
+                            <span class="checkbox--style"> </span>
+                        </label>
+                        <label for="form-checkbox">Stay signed in</label>
+                    </div>
+                    <a href="#" id="forgot-password">Forgot password?</a>
+                </div>
+                <div class="sign-in">
+                    <button type="submit" class="button--sign-in">Sign in</button>
+                </div>
+
+                <p class="sign-up">
+                    Don't have an account? <a href="#">Sign up</a>
+                </p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
